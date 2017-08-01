@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BF4BCCD66D5E509EB519C2C31158075 /* AngParentalGate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E68D97F6CF8423D89E126C13118A84D /* AngParentalGate-dummy.m */; };
+		2E2BB6FA2929C73C577C159A2A0A7F78 /* Pods-AngParentalGate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BFA43A6112B3BEE8134CF8E659C3AE4 /* Pods-AngParentalGate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37F2A0732EDC1A745F9E637BF26328BD /* Pods-AngParentalGate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA8D5B0C29AB5D3660DA4F3CD67292D /* Pods-AngParentalGate_Example-dummy.m */; };
+		52ABFDE559EF58B24C4A3A60D74DA26D /* Pods-AngParentalGate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1805F43D433A80455FEE3EA2B518A66 /* Pods-AngParentalGate_Tests-dummy.m */; };
+		75F3D17FA27199A4DF50F54D0F6BD711 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EE4D7DFB4A0B335E59CDA25255C9A /* ReplaceMe.swift */; };
+		787AB1459D42B55076685925EE5009EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		88FBEA98BE6BA1783C9F902D275EDDBE /* Pods-AngParentalGate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E7879E1A832C366799E79ABF08DFF7C /* Pods-AngParentalGate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B52A2D057E8AA6E82586EF5DEE188F /* AngParentalGate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B860FEAB7B30A819C69852555B3B71 /* AngParentalGate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3FE994C6A4BE84FEB2528AADF1B7C28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C788B0AC2DEF2412BC06CACD8FEE209F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ADF128A5F21DC12DFDE17D0F816DA3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD9F693379863E738B108CA7AF2E01F;
+			remoteInfo = AngParentalGate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E9070FA9C49127415A7533AB157E453 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182440AE8824A5D6FA604A6971DDDFC7 /* AngParentalGate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AngParentalGate.framework; path = AngParentalGate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE4CE7605D66F36B5B99FD9CF55459B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E7879E1A832C366799E79ABF08DFF7C /* Pods-AngParentalGate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AngParentalGate_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1EA8D5B0C29AB5D3660DA4F3CD67292D /* Pods-AngParentalGate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AngParentalGate_Example-dummy.m"; sourceTree = "<group>"; };
+		319EE4D7DFB4A0B335E59CDA25255C9A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		3B51036491AA489AB493015B2A35A15F /* Pods-AngParentalGate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AngParentalGate_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3E68D97F6CF8423D89E126C13118A84D /* AngParentalGate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AngParentalGate-dummy.m"; sourceTree = "<group>"; };
+		4F652079BDA4C44F14D42F2C61A82C86 /* Pods-AngParentalGate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AngParentalGate_Example.modulemap"; sourceTree = "<group>"; };
+		527F88806821707AD6258B170F895972 /* Pods-AngParentalGate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngParentalGate_Example-frameworks.sh"; sourceTree = "<group>"; };
+		569D9EA6EFBBFE22F69A492707A5C87D /* Pods-AngParentalGate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AngParentalGate_Tests.modulemap"; sourceTree = "<group>"; };
+		65B860FEAB7B30A819C69852555B3B71 /* AngParentalGate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AngParentalGate-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7068AD3C60990F68150F11E1A75671EF /* Pods_AngParentalGate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AngParentalGate_Example.framework; path = "Pods-AngParentalGate_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAB731F0D2286920D1A4B2356F9B8DA /* AngParentalGate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AngParentalGate-prefix.pch"; sourceTree = "<group>"; };
+		8064DA7A2B15AD64D15B75DFB8CDFDC3 /* Pods-AngParentalGate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AngParentalGate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8BFA43A6112B3BEE8134CF8E659C3AE4 /* Pods-AngParentalGate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AngParentalGate_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		954E8B54EB3EAD2311E88C9E472B227B /* Pods-AngParentalGate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AngParentalGate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		96478A115E214B5521B8F6A3226FF825 /* Pods-AngParentalGate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AngParentalGate_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A8FCD3FCFC4F37F9E92873A1D288BF65 /* Pods_AngParentalGate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AngParentalGate_Tests.framework; path = "Pods-AngParentalGate_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEE9655FA03428FF9D488FB57E97097 /* Pods-AngParentalGate_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngParentalGate_Tests-resources.sh"; sourceTree = "<group>"; };
+		B1805F43D433A80455FEE3EA2B518A66 /* Pods-AngParentalGate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AngParentalGate_Tests-dummy.m"; sourceTree = "<group>"; };
+		B96B5F4700320A3BEE398E941D63DCFB /* AngParentalGate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AngParentalGate.modulemap; sourceTree = "<group>"; };
+		BA54647E172A8D61136C58E2D5FBA1E0 /* Pods-AngParentalGate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AngParentalGate_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C0158C7E903CC256CD9185D308E99990 /* Pods-AngParentalGate_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngParentalGate_Example-resources.sh"; sourceTree = "<group>"; };
+		C830B347B35098E610CF25F9BBC67B75 /* Pods-AngParentalGate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AngParentalGate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0E28077329CBDE9623D0B743B19AB86 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2EC9E4A261A7AD07754F81FE4D7632F /* Pods-AngParentalGate_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngParentalGate_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F12D6CFFA96965CECB68360E063ED7AD /* Pods-AngParentalGate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AngParentalGate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1D5AA042BAE317556BDA4C2844E96C9 /* Pods-AngParentalGate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AngParentalGate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5C3A23D032BEAF917BFADDA7089D45C /* AngParentalGate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AngParentalGate.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08990F3F34434FA150342CA5616D316B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787AB1459D42B55076685925EE5009EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D85F823C8B1FBBC57E1C22AF5957E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FE994C6A4BE84FEB2528AADF1B7C28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F8AA42531BAF86DCB285F255DCF8E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C788B0AC2DEF2412BC06CACD8FEE209F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1291FB557645AE1CCA90DD9D29A27C53 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3151FC77FC1EB4B05BEF9AE65F5E99B5 /* Pods-AngParentalGate_Example */,
+				8057C7BEB87091DE7D215F463D59DC22 /* Pods-AngParentalGate_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		260578B827C0D0A5B1B1863F79DB1E98 /* AngParentalGate */ = {
+			isa = PBXGroup;
+			children = (
+				2EA0D474DC5BCAD227897D6C5B7F0634 /* Classes */,
+			);
+			name = AngParentalGate;
+			path = AngParentalGate;
+			sourceTree = "<group>";
+		};
+		2EA0D474DC5BCAD227897D6C5B7F0634 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				319EE4D7DFB4A0B335E59CDA25255C9A /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3151FC77FC1EB4B05BEF9AE65F5E99B5 /* Pods-AngParentalGate_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E0E28077329CBDE9623D0B743B19AB86 /* Info.plist */,
+				4F652079BDA4C44F14D42F2C61A82C86 /* Pods-AngParentalGate_Example.modulemap */,
+				954E8B54EB3EAD2311E88C9E472B227B /* Pods-AngParentalGate_Example-acknowledgements.markdown */,
+				F1D5AA042BAE317556BDA4C2844E96C9 /* Pods-AngParentalGate_Example-acknowledgements.plist */,
+				1EA8D5B0C29AB5D3660DA4F3CD67292D /* Pods-AngParentalGate_Example-dummy.m */,
+				527F88806821707AD6258B170F895972 /* Pods-AngParentalGate_Example-frameworks.sh */,
+				C0158C7E903CC256CD9185D308E99990 /* Pods-AngParentalGate_Example-resources.sh */,
+				8BFA43A6112B3BEE8134CF8E659C3AE4 /* Pods-AngParentalGate_Example-umbrella.h */,
+				BA54647E172A8D61136C58E2D5FBA1E0 /* Pods-AngParentalGate_Example.debug.xcconfig */,
+				3B51036491AA489AB493015B2A35A15F /* Pods-AngParentalGate_Example.release.xcconfig */,
+			);
+			name = "Pods-AngParentalGate_Example";
+			path = "Target Support Files/Pods-AngParentalGate_Example";
+			sourceTree = "<group>";
+		};
+		7995192D8762E6244CCC23A604CDFA0F /* AngParentalGate */ = {
+			isa = PBXGroup;
+			children = (
+				260578B827C0D0A5B1B1863F79DB1E98 /* AngParentalGate */,
+				96196ABFB855B9CD959F5FA0D69F58DD /* Support Files */,
+			);
+			name = AngParentalGate;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DCBC820ABBA4950583C5A6B59995FADA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FBA9886BB29FDE48DEB385334AC90240 /* Products */,
+				1291FB557645AE1CCA90DD9D29A27C53 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8057C7BEB87091DE7D215F463D59DC22 /* Pods-AngParentalGate_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0E9070FA9C49127415A7533AB157E453 /* Info.plist */,
+				569D9EA6EFBBFE22F69A492707A5C87D /* Pods-AngParentalGate_Tests.modulemap */,
+				F12D6CFFA96965CECB68360E063ED7AD /* Pods-AngParentalGate_Tests-acknowledgements.markdown */,
+				8064DA7A2B15AD64D15B75DFB8CDFDC3 /* Pods-AngParentalGate_Tests-acknowledgements.plist */,
+				B1805F43D433A80455FEE3EA2B518A66 /* Pods-AngParentalGate_Tests-dummy.m */,
+				E2EC9E4A261A7AD07754F81FE4D7632F /* Pods-AngParentalGate_Tests-frameworks.sh */,
+				ADEE9655FA03428FF9D488FB57E97097 /* Pods-AngParentalGate_Tests-resources.sh */,
+				1E7879E1A832C366799E79ABF08DFF7C /* Pods-AngParentalGate_Tests-umbrella.h */,
+				C830B347B35098E610CF25F9BBC67B75 /* Pods-AngParentalGate_Tests.debug.xcconfig */,
+				96478A115E214B5521B8F6A3226FF825 /* Pods-AngParentalGate_Tests.release.xcconfig */,
+			);
+			name = "Pods-AngParentalGate_Tests";
+			path = "Target Support Files/Pods-AngParentalGate_Tests";
+			sourceTree = "<group>";
+		};
+		96196ABFB855B9CD959F5FA0D69F58DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B96B5F4700320A3BEE398E941D63DCFB /* AngParentalGate.modulemap */,
+				F5C3A23D032BEAF917BFADDA7089D45C /* AngParentalGate.xcconfig */,
+				3E68D97F6CF8423D89E126C13118A84D /* AngParentalGate-dummy.m */,
+				7BAB731F0D2286920D1A4B2356F9B8DA /* AngParentalGate-prefix.pch */,
+				65B860FEAB7B30A819C69852555B3B71 /* AngParentalGate-umbrella.h */,
+				1AE4CE7605D66F36B5B99FD9CF55459B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AngParentalGate";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DCBC820ABBA4950583C5A6B59995FADA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7995192D8762E6244CCC23A604CDFA0F /* AngParentalGate */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FBA9886BB29FDE48DEB385334AC90240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182440AE8824A5D6FA604A6971DDDFC7 /* AngParentalGate.framework */,
+				7068AD3C60990F68150F11E1A75671EF /* Pods_AngParentalGate_Example.framework */,
+				A8FCD3FCFC4F37F9E92873A1D288BF65 /* Pods_AngParentalGate_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B5FB83FDF11B6A634487CAE5FF0B1EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2BB6FA2929C73C577C159A2A0A7F78 /* Pods-AngParentalGate_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654379B1C8962754849AAB84D74D3DD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FBEA98BE6BA1783C9F902D275EDDBE /* Pods-AngParentalGate_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C132F4290FA9DABC0627A84FBDA1F1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B52A2D057E8AA6E82586EF5DEE188F /* AngParentalGate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A2A27B739C16A17F143751C1911440DD /* Pods-AngParentalGate_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B770CF3E307F9517C0FEBBEF23A4566 /* Build configuration list for PBXNativeTarget "Pods-AngParentalGate_Example" */;
+			buildPhases = (
+				1B53B6D0F713E8B3E4F72EA1D2A7ED0E /* Sources */,
+				A5F8AA42531BAF86DCB285F255DCF8E6 /* Frameworks */,
+				4B5FB83FDF11B6A634487CAE5FF0B1EF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB5FA6004367AC29B767496088DFF093 /* PBXTargetDependency */,
+			);
+			name = "Pods-AngParentalGate_Example";
+			productName = "Pods-AngParentalGate_Example";
+			productReference = 7068AD3C60990F68150F11E1A75671EF /* Pods_AngParentalGate_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDD9F693379863E738B108CA7AF2E01F /* AngParentalGate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324F8DF8FD1B10DAF2DA552323F9ECD5 /* Build configuration list for PBXNativeTarget "AngParentalGate" */;
+			buildPhases = (
+				F22F32EB4499E3897C51EE2B3F80C9DF /* Sources */,
+				08990F3F34434FA150342CA5616D316B /* Frameworks */,
+				9C132F4290FA9DABC0627A84FBDA1F1D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngParentalGate;
+			productName = AngParentalGate;
+			productReference = 182440AE8824A5D6FA604A6971DDDFC7 /* AngParentalGate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1D029CC1FAA59D3596CD9BDE802F820 /* Pods-AngParentalGate_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BE362B3C4991124E109942A10322F9A /* Build configuration list for PBXNativeTarget "Pods-AngParentalGate_Tests" */;
+			buildPhases = (
+				666224F30A8F1B1D8DE352D25AA777B9 /* Sources */,
+				2D85F823C8B1FBBC57E1C22AF5957E8E /* Frameworks */,
+				654379B1C8962754849AAB84D74D3DD0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AngParentalGate_Tests";
+			productName = "Pods-AngParentalGate_Tests";
+			productReference = A8FCD3FCFC4F37F9E92873A1D288BF65 /* Pods_AngParentalGate_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FBA9886BB29FDE48DEB385334AC90240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDD9F693379863E738B108CA7AF2E01F /* AngParentalGate */,
+				A2A27B739C16A17F143751C1911440DD /* Pods-AngParentalGate_Example */,
+				E1D029CC1FAA59D3596CD9BDE802F820 /* Pods-AngParentalGate_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B53B6D0F713E8B3E4F72EA1D2A7ED0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F2A0732EDC1A745F9E637BF26328BD /* Pods-AngParentalGate_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666224F30A8F1B1D8DE352D25AA777B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ABFDE559EF58B24C4A3A60D74DA26D /* Pods-AngParentalGate_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22F32EB4499E3897C51EE2B3F80C9DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF4BCCD66D5E509EB519C2C31158075 /* AngParentalGate-dummy.m in Sources */,
+				75F3D17FA27199A4DF50F54D0F6BD711 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB5FA6004367AC29B767496088DFF093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AngParentalGate;
+			target = DDD9F693379863E738B108CA7AF2E01F /* AngParentalGate */;
+			targetProxy = 9ADF128A5F21DC12DFDE17D0F816DA3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		656DD1E1DA85145E9965A5A21BA91633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B51036491AA489AB493015B2A35A15F /* Pods-AngParentalGate_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AngParentalGate_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AngParentalGate_Example/Pods-AngParentalGate_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AngParentalGate_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCE66E7A5B42FADAD77B42790B4AF152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C3A23D032BEAF917BFADDA7089D45C /* AngParentalGate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AngParentalGate/AngParentalGate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AngParentalGate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AngParentalGate/AngParentalGate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AngParentalGate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C79386EC18E37FE2DB59FBD37EDE681A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C830B347B35098E610CF25F9BBC67B75 /* Pods-AngParentalGate_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AngParentalGate_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AngParentalGate_Tests/Pods-AngParentalGate_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AngParentalGate_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D99B4AFDAFFE6B35764AD0D78ADEC87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96478A115E214B5521B8F6A3226FF825 /* Pods-AngParentalGate_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AngParentalGate_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AngParentalGate_Tests/Pods-AngParentalGate_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AngParentalGate_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E100B6A46977EBE3862426A62426F4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA54647E172A8D61136C58E2D5FBA1E0 /* Pods-AngParentalGate_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AngParentalGate_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AngParentalGate_Example/Pods-AngParentalGate_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AngParentalGate_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F33511909DC97A9BD486D8A291169748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C3A23D032BEAF917BFADDA7089D45C /* AngParentalGate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AngParentalGate/AngParentalGate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AngParentalGate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AngParentalGate/AngParentalGate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AngParentalGate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324F8DF8FD1B10DAF2DA552323F9ECD5 /* Build configuration list for PBXNativeTarget "AngParentalGate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33511909DC97A9BD486D8A291169748 /* Debug */,
+				BCE66E7A5B42FADAD77B42790B4AF152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B770CF3E307F9517C0FEBBEF23A4566 /* Build configuration list for PBXNativeTarget "Pods-AngParentalGate_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E100B6A46977EBE3862426A62426F4DA /* Debug */,
+				656DD1E1DA85145E9965A5A21BA91633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BE362B3C4991124E109942A10322F9A /* Build configuration list for PBXNativeTarget "Pods-AngParentalGate_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79386EC18E37FE2DB59FBD37EDE681A /* Debug */,
+				D99B4AFDAFFE6B35764AD0D78ADEC87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

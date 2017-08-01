@@ -1,0 +1,16 @@
+PODS:
+  - AngParentalGate (0.1.0)
+
+DEPENDENCIES:
+  - AngParentalGate (from `../`)
+
+EXTERNAL SOURCES:
+  AngParentalGate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AngParentalGate: 1838e2efc48bd8a2d1555183a8003242d841259d
+
+PODFILE CHECKSUM: 5d0ebf922f14f39af360d5a0030e5802a65fb7dd
+
+COCOAPODS: 1.2.1

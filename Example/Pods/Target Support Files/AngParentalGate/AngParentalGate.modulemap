@@ -1,0 +1,6 @@
+framework module AngParentalGate {
+  umbrella header "AngParentalGate-umbrella.h"
+
+  export *
+  module * { export * }
+}
