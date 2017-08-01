@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AngParentalGate_Example' do
+  pod 'AngParentalGate', :path => '../'
+
+  target 'AngParentalGate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
